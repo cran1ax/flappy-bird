@@ -13,6 +13,8 @@ A classic Flappy Bird game implementation using Python and Pygame.
 
 ## Installation
 
+### Linux/macOS
+
 1. Make sure you have Python 3.7+ installed on your system
 
 2. Create a virtual environment (recommended):
@@ -25,23 +27,42 @@ python3 -m venv venv
 ./venv/bin/pip install -r requirements.txt
 ```
 
-Or install Pygame directly:
-```bash
-./venv/bin/pip install pygame
+### Windows
+
+1. Make sure you have Python 3.7+ installed on your system
+
+2. Create a virtual environment (recommended):
+```cmd
+python -m venv venv
+```
+
+3. Install the required dependencies:
+```cmd
+venv\Scripts\pip install -r requirements.txt
 ```
 
 ## How to Run
 
-### Easy Method (Recommended)
+### Linux/macOS
 Simply run the provided script:
 ```bash
 ./run.sh
 ```
 
-### Manual Method
-Navigate to the game directory and run:
+Or manually:
 ```bash
 ./venv/bin/python flappy_bird.py
+```
+
+### Windows
+Simply run the provided batch file:
+```cmd
+run.bat
+```
+
+Or manually:
+```cmd
+venv\Scripts\python flappy_bird.py
 ```
 
 ## Controls
